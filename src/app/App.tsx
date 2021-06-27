@@ -1,12 +1,11 @@
 import React from 'react';
-import firebase from 'firebase';
+import firebase from 'firebase/app';
 import TopBar from 'src/components/TopBar';
 import Footer from 'src/components/Footer';
 import Home from 'src/components/Home';
 import NoMatch from 'src/components/NoMatch';
 import FAQ from 'src/components/FAQ';
 import AboutUs from 'src/components/AboutUs';
-// import 'firebase/auth';
 import {
   Route,
   Switch,
