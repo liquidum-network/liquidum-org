@@ -6,6 +6,7 @@ import Home from 'src/components/Home';
 import NoMatch from 'src/components/NoMatch';
 import FAQ from 'src/components/FAQ';
 import AboutUs from 'src/components/AboutUs';
+import WhitePaper from 'src/components/WhitePaper';
 import {
   Route,
   Switch,
@@ -50,6 +51,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/about">
               <AboutUs />
+            </Route>
+            <Route path="/whitepaper">
+              <WhitePaper />
             </Route>
             <Route exact path="/">
               <Home />
