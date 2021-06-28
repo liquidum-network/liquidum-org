@@ -9,7 +9,7 @@ const people = [
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/michaelgraczyk/',
     objectPosition: 'top',
-    bio: 'Michael is a Staff Engineer at Google and former Senior Machine Learning Engineer at Facebook. He was cofounder and CTO of Opentoken, an ICO and wallet platform that was later acquired. He started hacking on Ethereum in his Stanford CS251 course in 2015, and has been working on various blockchain projects since.',
+    bio: 'Michael is a Staff Engineer at Google and former Senior Machine Learning Engineer at Facebook. He was cofounder and CTO of Pantera-backed Opentoken, an ICO and wallet platform that was later acquired. He started hacking on Ethereum in his Stanford CS251 course in 2015, and has been working on various blockchain projects since.',
   },
   {
     name: 'David Gudeman',
@@ -21,7 +21,7 @@ const people = [
     objectPosition: 'unset',
     bio: `David is Senior Engineer at Tappity (YC S20) and has years of product management/development experience.
     He started working at startups in 2013 and has helped bootstrap several operating in healthcare and education.
-    He was first exposed to Ethereum in 2017 and has been interested in it's applications ever since.`,
+    He has been working with Ethereum and cryptocurrencies since 2017.`,
   },
 ];
 
