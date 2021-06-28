@@ -19,7 +19,9 @@ const people = [
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/davidgudeman/',
     objectPosition: 'unset',
-    bio: 'David brings years of project management and software experience from the enterprise and startup world.',
+    bio: `David is Senior Engineer at Tappity (YC S20) and has years of product management/development experience.
+    He started working at startups in 2013 and has helped bootstrap several operating in healthcare and education.
+    He was first exposed to Ethereum in 2017 and has been interested in it's applications ever since.`,
   },
 ];
 
