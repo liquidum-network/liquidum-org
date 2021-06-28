@@ -1,24 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render} from 'react-dom';
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import 'src/index.css';
 
 
-const render = (): void => {
+const renderApp = (): void => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const App = require('./app/App').default;
-  ReactDOM.render(
-    <Router>
-      <App />
-    </Router>,
-    document.getElementById('root')
-  );
+  const rootElement = document.getElementById('root');
+  if (rootElement && rootElement.hasChildNodes()) {
+    render(<Router><App /></Router>, rootElement);
+  } else {
+    hydrate(<Router><App /></Router>, rootElement);
+  }
 };
-render();
+renderApp();
 
 
 if (process.env.NODE_ENV === 'development' && module.hot) {
-  module.hot.accept('./app/App', render);
+  module.hot.accept('./app/App', renderApp);
 }
