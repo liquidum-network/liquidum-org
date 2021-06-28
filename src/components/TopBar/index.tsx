@@ -35,10 +35,10 @@ const TopBar: React.FC = () => {
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <Link to="/">
                     <span className="sr-only">Workflow</span>
-                    <img
+                    <img width="60.1" height="60.1"
                       className="h-8 w-auto sm:h-10"
                       src="logo.svg"
-                      alt=""
+                      alt="Liquidum logo"
                     />
                   </Link>
                   <div className="-mr-2 flex items-center md:hidden">
@@ -95,7 +95,7 @@ const TopBar: React.FC = () => {
                     <img
                       className="h-8 w-auto"
                       src="logo.svg"
-                      alt=""
+                      alt="Small Liquidum logo"
                     />
                   </div>
                   <div className="-mr-2">

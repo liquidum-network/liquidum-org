@@ -13,12 +13,12 @@ const features = [
   },
   {
     name: 'Sustainable',
-    description: "Uses Chia's Proof of Space and Time to power consensus without the waste of Proof of Work or centralization and complexity of Proof of Stake.",
+    description: "Uses Chia's Proof of Space and Time for consensus. Less wasteful and inefficient than of Proof of Work. Less centralization and complexity than Proof of Stake.",
     icon: GlobeIcon,
   },
   {
     name: 'Decentralized',
-    description: 'Anyone with 100GB of free hard drive space can mine and earn rewards for securing the network. Compatible with existing Chia plots.',
+    description: 'Anyone with 100GB of hard drive space can mine and earn rewards for securing the network. Compatible with existing Chia plots.',
     icon: RefreshIcon,
   },
 ];
@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                   <span className="block">Liquidum</span>
                 </h1>
                 <h1 className="mt-5 text-xl tracking-tight font-bold text-white sm:mt-3 sm:text-3xl lg:mt-3 xl:text-3xl">
-                  <span className="block">A new Ethereum Smart Contract blockchain that is</span>
+                  <span className="block">A new Ethereum compatible blockchain that is</span>
                   <span className="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-teal-200 to-cyan-400 sm:pb-5">
                     efficient, fast, and truly decentralized.
                   </span>
@@ -109,7 +109,7 @@ const Home: React.FC = () => {
                 <img
                   className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                   src="/cloud-illustration-teal-cyan.svg"
-                  alt=""
+                  alt="Image depicting cloud computing"
                 />
               </div>
             </div>
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-            {"The Ethereum EVM Ecosystem powered by Chia's Proof of Space and Time"}
+            {"The Ethereum Ecosystem powered by Chia's Proof of Space and Time"}
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
