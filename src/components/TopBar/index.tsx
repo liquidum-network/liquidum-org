@@ -15,8 +15,8 @@ import { Link, useLocation } from 'react-router-dom';
 const navigation: { name: string; to: string }[] = [
   { name: 'Home', to: '/' },
   // { name: 'FAQ', to: '/faq' },
-  { name: 'White Paper', to: '/whitepaper' },
   { name: 'About', to: '/about' },
+  { name: 'White Paper', to: '/whitepaper' },
 ];
 
 

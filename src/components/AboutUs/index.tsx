@@ -9,6 +9,7 @@ const people = [
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/michaelgraczyk/',
     objectPosition: 'top',
+    bio: 'Michael is a Staff Engineer at Google and former Senior Machine Learning Engineer at Facebook. He was cofounder and CTO of Opentoken, an ICO and wallet platform that was later acquired. He started hacking on Ethereum in his Stanford CS251 course in 2015, and has been working on various blockchain projects since.',
   },
   {
     name: 'David Gudeman',
@@ -18,6 +19,7 @@ const people = [
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/davidgudeman/',
     objectPosition: 'unset',
+    bio: 'David brings years of project management and software experience from the enterprise and startup world.',
   },
 ];
 
@@ -30,9 +32,9 @@ const AboutUs: React.FC = () => {
         <div className="space-y-12">
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Our Team</h2>
-            <p className="text-xl text-gray-500">
+            {/*<p className="text-xl text-gray-500">
               A team experienced in taking ideas to market.
-            </p>
+            </p>*/}
           </div>
           <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
             {people.map((person) => (
@@ -47,6 +49,7 @@ const AboutUs: React.FC = () => {
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h3>{person.name}</h3>
                       <p className="text-cyan-600">{person.role}</p>
+                      <p className="text-sm font-light">{person.bio}</p>
                     </div>
                     <ul className="flex space-x-5">
                       {/* <li>
