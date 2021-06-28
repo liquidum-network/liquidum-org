@@ -40,9 +40,11 @@ firebase.initializeApp(firebaseConfig);
 const App: React.FC = () => {
   return (
     <div className="bg-white">
-      <div className="relative overflow-hidden">
+      <div className="flex flex-col h-screen justify-between">
         <TopBar />
-        <main>
+        <main
+          className="flex-grow"
+        >
           <Switch>
             <Route path="/faq">
               <FAQ />
