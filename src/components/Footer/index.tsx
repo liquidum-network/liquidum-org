@@ -76,9 +76,6 @@ const Footer: React.FC = () => {
               src="/logo-grey.svg"
               alt="Liquidum"
             />
-            <p className="text-gray-500 text-base">
-              Pioneering blockchain technology.
-            </p>
             <div className="flex space-x-6">
               {footerNavigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">

@@ -8,6 +8,7 @@ const people = [
       '/michael.jpeg',
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/michaelgraczyk/',
+    objectPosition: 'top',
   },
   {
     name: 'David Gudeman',
@@ -16,6 +17,7 @@ const people = [
       '/david.jpg',
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/davidgudeman/',
+    objectPosition: 'unset',
   },
 ];
 
@@ -37,7 +39,8 @@ const AboutUs: React.FC = () => {
               <li key={person.name}>
                 <div className="space-y-4">
                   <div className="aspect-w-3 aspect-h-2">
-                    <img className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt="" />
+                    <img className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt={person.name}
+                         style={{objectPosition: person.objectPosition}}/>
                   </div>
 
                   <div className="space-y-2">
