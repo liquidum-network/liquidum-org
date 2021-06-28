@@ -9,7 +9,7 @@ const people = [
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/michaelgraczyk/',
     objectPosition: 'top',
-    bio: 'Michael is a Staff Engineer at Google and former Senior Machine Learning Engineer at Facebook. He was cofounder and CTO of Pantera-backed Opentoken, an ICO and wallet platform that was later acquired. He started hacking on Ethereum in his Stanford CS251 course in 2015, and has been working on various blockchain projects since.',
+    bio: 'Michael is a Staff Engineer at Google and former Senior Machine Learning Engineer at Facebook. He was cofounder and CTO of Opentoken, a Pantera-backed ICO and wallet platform that was later acquired. He started hacking on Ethereum in his Stanford CS251 course in 2015, and has been working on various blockchain projects since.',
   },
   {
     name: 'David Gudeman',
