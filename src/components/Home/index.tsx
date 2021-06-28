@@ -243,23 +243,15 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div> */}
-
-      {/* CTA Section */}
-      <div className="relative bg-gray-900">
-        <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-          <div
-            aria-hidden="true"
-            className="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"
-          />
-        </div>
-        <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
-          <div className="md:ml-auto md:w-1/2 md:pl-10">
-            <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
+      <div className="bg-gray-900">
+        <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <p className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
               Testnet launching 08/11/2021
-            </h2>
-            <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
+            </p>
+            <p className="max-w-xl mt-5 mx-auto text-3xl text-gray-300">
               Mainnet Q4 2021
-            </h2>
+            </p>
           </div>
         </div>
       </div>
