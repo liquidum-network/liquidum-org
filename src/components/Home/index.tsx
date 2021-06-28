@@ -247,7 +247,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Testnet launching 08/11/2021
+              Testnet launching 07/11/2021
             </p>
             <p className="max-w-xl mt-5 mx-auto text-3xl text-gray-300">
               Mainnet Q4 2021
