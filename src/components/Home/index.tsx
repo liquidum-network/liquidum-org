@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  UserGroup,
+  UserGroupIcon,
   RefreshIcon,
   GlobeIcon,
 } from '@heroicons/react/outline';
@@ -9,7 +9,7 @@ const features = [
   {
     name: 'Ethereum Ecosystem',
     description: 'MetaMask, Solidity, Etherscan, EVM, and more. A massive ecosystem of tools and infrastructure supported out of the box.',
-    icon: UserGroup,
+    icon: UserGroupIcon,
   },
   {
     name: 'Sustainable',
@@ -92,7 +92,7 @@ const Home: React.FC = () => {
                 </h1>
                 <div className="mt-10 sm:mt-12">
                   <p className="mt-3 mb-2 w-full sm:w-1/2 mx-auto lg:mx-0 text-sm text-gray-300 sm:mt-4">
-                    Don't miss the latest news.
+                    {"Don't miss the latest news."}
                   </p>
                   <button
                     type="submit"
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-            The Ethereum EVM Ecosystem powered by Chia's Proof of Space and Time
+            {"The Ethereum EVM Ecosystem powered by Chia's Proof of Space and Time"}
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

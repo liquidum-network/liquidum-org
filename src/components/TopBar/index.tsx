@@ -8,7 +8,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 
 /** type imports */
-// import type { RootState } from 'src/app/rootReducer';
 // import type { AppDispatch } from 'src/app/store';
 // import type { FirebaseAuthUser } from 'types';
 

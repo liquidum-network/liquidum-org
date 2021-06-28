@@ -16,7 +16,6 @@ import {
 
 import './App.css';
 /** type imports */
-// import type { RootState } from 'src/app/rootReducer';
 // import type { AppDispatch } from 'src/app/store';
 // import type { FirebaseAuthUser } from 'types';
 
