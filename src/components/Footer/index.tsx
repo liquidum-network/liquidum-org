@@ -34,7 +34,7 @@ const footerNavigation = {
     },
     {
       name: 'Twitter',
-      href: 'https://twitter.com/liquidumN',
+      href: 'https://twitter.com/LiquidumNetwork',
       icon(props: React.SVGProps<SVGSVGElement>) {
         return (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
