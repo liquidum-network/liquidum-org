@@ -1,5 +1,6 @@
 import React from 'react';
 import firebase from 'firebase/app';
+import 'firebase/analytics';
 import TopBar from 'src/components/TopBar';
 import Footer from 'src/components/Footer';
 import Home from 'src/components/Home';
@@ -10,15 +11,10 @@ import WhitePaper from 'src/components/WhitePaper';
 import {
   Route,
   Switch,
-  // Redirect,
-  // useLocation,
 } from 'react-router-dom';
-// import NoMatch from 'src/components/auth/NoMatch';
 
 import './App.css';
 /** type imports */
-// import type { AppDispatch } from 'src/app/store';
-// import type { FirebaseAuthUser } from 'types';
 
 
 const firebaseConfig = {
@@ -33,6 +29,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+firebase.analytics();
 
 
 
