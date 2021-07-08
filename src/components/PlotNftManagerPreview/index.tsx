@@ -6,7 +6,7 @@ const PlotNftManagerPreview: React.FC = () => {
       <div className="mx-3 mt-4 text-2xl font-semibold">Preview of our plotnft manager Dapp.</div>
       <div className="bg-gray-50 shadow border rounded-lg mt-6">
         <div className="px-4 py-5 sm:px-6 text-xl">
-          You can view details, create, and update your plotnfts. Easily vew attached pools and total rewards collected.
+          You can view details, create, and update your plotnfts. Easily view attached pools and total rewards collected.
         </div>
         <div className="bg-gray-100 px-4 py-5 sm:p-6">
           <img className="border p-1 shadow" src="https://firebasestorage.googleapis.com/v0/b/proof-of-sprout.appspot.com/o/static-assets%2Fplot-nft-manager-1.png?alt=media" alt="plotnft manager 1" />
