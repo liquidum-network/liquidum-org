@@ -5,8 +5,6 @@ import {
   XIcon,
 } from '@heroicons/react/outline';
 import { Link, useLocation } from 'react-router-dom';
-
-
 /** type imports */
 // import type { AppDispatch } from 'src/app/store';
 // import type { FirebaseAuthUser } from 'types';
@@ -26,7 +24,7 @@ const TopBar: React.FC = () => {
     <Popover as="header" className="relative">
       {({ open }) => (
         <React.Fragment>
-          <div className="bg-gray-900 pt-6 pb-3">
+          <div className="bg-gray-900 pt-3 pb-3">
             <nav
               className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
               aria-label="Global"

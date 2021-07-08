@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
+      <div className="max-w-md mx-auto pt-6 px-4 sm:max-w-7xl sm:px-6 lg:pt-8 lg:px-8">
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <img

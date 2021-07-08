@@ -8,6 +8,7 @@ import NoMatch from 'src/components/NoMatch';
 import FAQ from 'src/components/FAQ';
 import AboutUs from 'src/components/AboutUs';
 import WhitePaper from 'src/components/WhitePaper';
+import PlotNftManagerPreview from 'src/components/PlotNftManagerPreview';
 import {
   Route,
   Switch,
@@ -51,6 +52,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/whitepaper">
               <WhitePaper />
+            </Route>
+            <Route path="/plotnft-manager-preview">
+              <PlotNftManagerPreview />
             </Route>
             <Route exact path="/">
               <Home />

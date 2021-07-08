@@ -4,8 +4,7 @@ const people = [
   {
     name: 'Michael Graczyk',
     role: 'Co-Founder',
-    imageUrl:
-      '/michael.jpeg',
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/proof-of-sprout.appspot.com/o/static-assets%2Fmichael.jpeg?alt=media',
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/michaelgraczyk/',
     objectPosition: 'top',
@@ -14,8 +13,7 @@ const people = [
   {
     name: 'David Gudeman',
     role: 'Co-Founder',
-    imageUrl:
-      '/david.jpg',
+    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/proof-of-sprout.appspot.com/o/static-assets%2Fdavid.jpg?alt=media',
     // twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/davidgudeman/',
     objectPosition: 'unset',
@@ -44,7 +42,7 @@ const AboutUs: React.FC = () => {
                 <div className="space-y-4">
                   <div className="aspect-w-3 aspect-h-2">
                     <img className="object-cover shadow-lg rounded-lg" src={person.imageUrl} alt={person.name}
-                         style={{objectPosition: person.objectPosition}}/>
+                      style={{ objectPosition: person.objectPosition }} />
                   </div>
 
                   <div className="space-y-2">
