@@ -60,7 +60,7 @@ const footerNavigation = {
     },
     {
       name: 'Discord',
-      href: 'https://discord.gg/weBuJ4g2',
+      href: 'https://discord.gg/Umcssk2YAe',
       icon(props: React.SVGProps<SVGSVGElement>) {
         return (
           <svg width="71" height="55" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
